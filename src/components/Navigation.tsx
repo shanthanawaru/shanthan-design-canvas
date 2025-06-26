@@ -23,10 +23,10 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-gray-900/95 backdrop-blur-sm border-b border-gray-800' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="font-bold text-xl text-red-600">
+          <div className="font-bold text-xl bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
             Awaru Shanthan
           </div>
           
@@ -36,9 +36,10 @@ const Navigation = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-gray-700 hover:text-red-600 transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-orange-400 transition-colors duration-200 font-medium relative group"
               >
                 {item}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-400 to-pink-500 group-hover:w-full transition-all duration-300"></span>
               </button>
             ))}
           </div>
@@ -47,7 +48,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-red-600 transition-colors"
+              className="text-gray-300 hover:text-orange-400 transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -57,12 +58,12 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm rounded-lg mt-2">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-900/95 backdrop-blur-sm rounded-lg mt-2 border border-gray-800">
               {['Home', 'About', 'Portfolio', 'Services', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="block w-full text-left px-3 py-2 text-gray-700 hover:text-red-600 hover:bg-gray-50 transition-colors duration-200"
+                  className="block w-full text-left px-3 py-2 text-gray-300 hover:text-orange-400 hover:bg-gray-800 rounded transition-colors duration-200"
                 >
                   {item}
                 </button>
