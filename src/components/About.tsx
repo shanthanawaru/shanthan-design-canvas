@@ -31,6 +31,17 @@ const About = () => {
           </div>
           
           <div className="space-y-6">
+            {/* Profile Picture in About Section */}
+            <div className="flex justify-center lg:justify-start mb-6">
+              <div className="w-48 h-48 bg-gradient-to-br from-red-500 to-green-500 rounded-2xl p-1">
+                <img 
+                  src="/lovable-uploads/c457923c-7466-48ef-8a93-2208926b2ed7.png" 
+                  alt="Awaru Shanthan - UI/UX Designer" 
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+            </div>
+            
             <div className="bg-gradient-to-br from-red-50 to-green-50 p-8 rounded-2xl">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">

@@ -30,9 +30,11 @@ const Hero = () => {
         {/* Profile Picture */}
         <div className="mb-8 flex justify-center">
           <div className="w-32 h-32 sm:w-40 sm:h-40 bg-gradient-to-br from-red-500 to-green-500 rounded-full p-1 animate-fade-in">
-            <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center text-4xl sm:text-5xl font-bold text-gray-600">
-              AS
-            </div>
+            <img 
+              src="/lovable-uploads/c457923c-7466-48ef-8a93-2208926b2ed7.png" 
+              alt="Awaru Shanthan - UI/UX Designer" 
+              className="w-full h-full object-cover rounded-full"
+            />
           </div>
         </div>
         
