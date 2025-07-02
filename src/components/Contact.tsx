@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Mail, Phone, Send, Linkedin, Github, MapPin, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -48,7 +47,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "Bangalore, India",
+      value: "Hyderabad, India",
       link: "#",
       color: "purple"
     },
