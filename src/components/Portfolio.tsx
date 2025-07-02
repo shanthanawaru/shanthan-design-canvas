@@ -1,3 +1,4 @@
+
 import { ExternalLink, Eye, Github, Award, Calendar, ArrowUpRight } from "lucide-react";
 
 const Portfolio = () => {
@@ -19,7 +20,7 @@ const Portfolio = () => {
       description: "Complete brand transformation for a tech startup including logo design, color psychology application, and comprehensive brand guidelines that increased brand recognition.",
       longDescription: "Developed a complete visual identity system that helped the startup secure $2M in Series A funding through compelling brand presentation.",
       tools: ["Photoshop", "Illustrator", "Brand Strategy", "Typography"],
-      image: "/lovable-uploads/98d3573d-6183-41f2-9a45-5e47c763b084.png",
+      image: "/lovable-uploads/40f11d8d-32f7-42a0-aad4-06a42a625367.png",
       category: "Graphic Design",
       featured: true,
       year: "2024",
