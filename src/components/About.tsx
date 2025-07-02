@@ -1,5 +1,4 @@
-
-import { GraduationCap, Heart, Users, Code, Palette, Award, Target, Lightbulb } from "lucide-react";
+import { GraduationCap, Heart, Users, Code, Palette, Award, Target, Lightbulb, Sparkles } from "lucide-react";
 
 const About = () => {
   const skills = [
