@@ -1,4 +1,3 @@
-
 import { ExternalLink, Eye, Github, Award, Calendar, ArrowUpRight } from "lucide-react";
 
 const Portfolio = () => {
@@ -8,7 +7,7 @@ const Portfolio = () => {
       description: "Complete mobile app redesign for hostel and hotel bookings. Created comprehensive user journey from research to final implementation with focus on seamless booking experience.",
       longDescription: "Led end-to-end UX research and design for a hospitality booking platform, resulting in 40% increase in user engagement and 25% boost in conversion rates.",
       tools: ["Figma", "Photoshop", "User Research", "Prototyping"],
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop&crop=center",
+      image: "/lovable-uploads/c354426f-a1ca-458c-b2bb-6e4e0a404630.png",
       category: "UI/UX Design",
       featured: true,
       year: "2024",
